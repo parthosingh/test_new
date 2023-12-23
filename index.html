@@ -1,0 +1,79 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Finder App</title>
+  <style>
+    /* CSS for the flag */
+    .flag {
+      width: 200px;
+      height: 120px;
+      position: relative;
+    }
+
+    .flag > div {
+      height: 25%;
+    }
+
+    .saffron {
+      background-color: #ff9933;
+    }
+
+    .white {
+      background-color: white;
+    }
+
+    .green {
+      background-color: #138808;
+    }
+
+    .wheel {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 45%;
+      height: 50%;
+      background-color: #000080;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .inner-wheel {
+      width: 80%;
+      height: 80%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      border-radius: 50%;
+    }
+
+    /* Additional CSS for card styling */
+    .card {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 10px;
+      width: 250px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Additional CSS for other elements in cards */
+    .card h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Display area for country cards -->
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
